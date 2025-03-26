@@ -1,6 +1,8 @@
 #include "bit-manipulation.h"
 #include "type-def.h"
 
+#include <utility>
+
 // 비트에서 1 개수 세는거
 namespace bit_manipulation {
     type_def::Result<int> CountSetBits(int n) {
@@ -9,7 +11,7 @@ namespace bit_manipulation {
         if (n < 0) {
             result.status = type_def::STATUS::FAILURE;
             result.value = -1;  
-            return result;
+            return std::move(result);
         }
 
         int count = 0;
@@ -20,6 +22,6 @@ namespace bit_manipulation {
 
         result.status = type_def::STATUS::SUCCESS;
         result.value = count;
-        return result;
+        return std::move(result);
     }
 }

@@ -9,3 +9,4 @@ namespace bit_manipulation {
 }
 
 #endif
+
