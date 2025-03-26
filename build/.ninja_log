@@ -1,8 +1,0 @@
-# ninja log v6
-13	87	7646735998173852	bit-manipulation/CMakeFiles/bit-manipulation.dir/counting-set-bits.cc.obj	d8fc19edab0cecd8
-17	88	7646735998200301	bit-manipulation/CMakeFiles/bit-manipulation.dir/highest-set-bits.cc.obj	200d4bb5517e5367
-88	166	7646735998830316	bit-manipulation/libbit-manipulation.a	cba69bf68dff899a
-444	553	7646736002466090	algorithms_cpp.exe	8877eed4166b7207
-21	442	7646735998228440	CMakeFiles/algorithms_cpp.dir/main.cc.obj	e48dc648cdaef56d
-22	298	7646736858531501	CMakeFiles/algorithms_cpp.dir/main.cc.obj	e48dc648cdaef56d
-299	395	7646736861336509	algorithms_cpp.exe	8877eed4166b7207
