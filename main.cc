@@ -3,7 +3,7 @@
 #include "bit-manipulation.h"
 #include "type-def.h"
 
-// Remove-Item -Recurse -Force .\build\*
+//  cmake --build build --target clear
 // cmake -B build -G Ninja
 // ninja -C build
 int main () {
