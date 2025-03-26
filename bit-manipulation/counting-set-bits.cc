@@ -4,8 +4,9 @@
 // 비트에서 1 개수 세는거
 namespace bit_manipulation {
     type_def::Result<int> CountSetBits(int n) {
+        type_def::Result<int> result;
+
         if (n < 0) {
-            type_def::Result<int> result;
             result.status = type_def::STATUS::FAILURE;
             result.value = -1;  
             return result;
@@ -17,7 +18,6 @@ namespace bit_manipulation {
             count+=1;
         }
 
-        type_def::Result<int> result;
         result.status = type_def::STATUS::SUCCESS;
         result.value = count;
         return result;

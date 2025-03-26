@@ -5,6 +5,7 @@
 
 namespace bit_manipulation {
     type_def::Result<int> CountSetBits(int n);
+    type_def::Result<int> FindHighestSetBit(int n);
 }
 
 #endif

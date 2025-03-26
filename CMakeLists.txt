@@ -24,3 +24,8 @@ endforeach()
 
 # 실행 파일 생성
 add_executable(${PROJECT_NAME} main.cc ${LIB_OBJS})
+
+# 커스텀 타겟 추가 - 빌드 클린
+add_custom_target(clean-all
+    COMMAND ${CMAKE_COMMAND} -P ${CMAKE_SOURCE_DIR}/clean.cmake
+)
